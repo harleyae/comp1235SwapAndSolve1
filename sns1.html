@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Restaurant Reservations</title>
+    <link rel="stylesheet" href="sns1.css">
+</head>
+<body>
+    <!-- Banner -->
+    <header>
+        <h1>Restaurateurs Inc.</h1>
+    </header>
+    <main>
+        <!-- Restaurant Info -->
+        <section class="restaurant_info">
+            <h2>Italiano Ristorante</h2>
+            <div class="buttons">
+                <button>Toronto</button>
+                <button>Other Locations</button>
+                <button>Reviews</button>
+            </div>
+        </section>
+        <!-- Menu Grid -->
+        <section class="menu_grid">
+            <div class="menu_box">
+                <h3>Breakfast</h3>
+                <p>Pastry</p>
+                <p>Breakfast Panini</p>
+                <p>Espresso</p>
+            </div>
+            <div class="menu_box">
+                <h3>Lunch</h3>
+                <p>Margherita Pizza</p>
+                <p>Caesar Salad</p>
+                <p>Bruschetta</p>
+            </div>
+            <div class="menu_box">
+                <h3>Dinner</h3>
+                <p>Seafood Risotto</p>
+                <p>Steak with Pasta</p>
+                <p>Chicken Parmigiana</p>
+            </div>
+        </section>
+        <!-- Reservation Form -->
+        <section class="reservation">
+            <h2>Reserve a Table</h2>
+            <form class="reservation_form">
+                <div class="selection_box">
+                    <label>Date:</label>
+                    <input type="date" required>
+                    <label>Time:</label>
+                    <input type="time" required>
+                    <label>Party Size:</label>
+                    <select required>
+                        <option>1 Person</option>
+                        <option>2 People</option>
+                        <option>3 People</option>
+                        <option>4+ People</option>
+                    </select>
+                    <label>Email Address:</label>
+                    <input type="email" placeholder="example@email.com" required>
+                </div>
+                <button type="submit">Find Table</button>
+            </form>
+        </section>
+    </main>
+    <!-- Bottom Banner -->
+    <footer>
+        <p>2026 copyright</p>
+        <p>Restauraters Inc.</p>
+    </footer>
+</body>
+</html>
