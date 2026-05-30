@@ -137,4 +137,10 @@ footer {
         gap: 10px;
     }
 
+    h1 {
+        font-size: 2em;
+        text-align: center;
+        word-wrap: break-word;
+    }
+
 }
