@@ -111,7 +111,7 @@ footer {
 /* Media Queries */
 @media screen and (max-width: 768px) {
 
-    .menu-grid {
+    .menu_grid {
         grid-template-columns: 1fr;
     }
 
